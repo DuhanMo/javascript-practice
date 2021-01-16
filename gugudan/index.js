@@ -1,1 +1,2 @@
-console.log('hello.js');
+document.querySelector('#first').value
+document.querySelector('#second').value
