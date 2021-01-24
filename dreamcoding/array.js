@@ -62,11 +62,11 @@ fruits.push('딸기', '복숭아', '라임');
 console.log(fruits);
 // fruits.splice(1, 3);
 // console.log(fruits);
-fruits.splice(1,2,'인덱스1자리','인덱스2자리','인덱스3자리');
+fruits.splice(1, 2, '인덱스1자리', '인덱스2자리', '인덱스3자리');
 console.log(fruits);
 
 // combine two arrays
-const fruits2 = ['모과','용두'];
+const fruits2 = ['모과', '용두'];
 const newFruits = fruits.concat(fruits2);
 console.log(newFruits);
 
@@ -77,7 +77,7 @@ console.clear();
 console.log(fruits);
 console.log(fruits.indexOf('사과'));
 console.log(fruits.indexOf('딸기')); // 없으면 -1 나옴
-console.log(fruits.includes('사과')); 
+console.log(fruits.includes('사과'));
 
 // lastIndexOf
 console.clear();
@@ -85,7 +85,7 @@ fruits.push('사과');
 console.log(fruits);
 console.log(fruits.indexOf('사과')); // indexOf 는 처음만난 녀석을 뽑아냄
 console.log(fruits.lastIndexOf('사과')); // lastIndexOf 는 뒤에서부터 시작해 처음만난 녀석을 뽑아냄
-fruits.splice(0,0,'들어감?');
+fruits.splice(0, 0, '들어감?');
 console.log(fruits);
 
 console.log(fruits.toLocaleString());
@@ -93,7 +93,7 @@ console.log(fruits.push('푸쉬리턴값은?')); //
 
 console.log(fruits.join('&'));
 console.log(fruits);
-console.log(fruits.slice(0,2));
+console.log(fruits.slice(0, 2));
 console.log(fruits);
 console.clear();
 const fruitsNew = [1, 2, 3];
@@ -112,7 +112,7 @@ const even = (element) => element % 2 === 0;
 console.log(array.some(even));
 // expected output: true
 
-array.forEach( (value, index) => {
+array.forEach((value, index) => {
     value += 10;
     console.log(value, index);
 });
