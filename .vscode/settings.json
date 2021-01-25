@@ -1,8 +1,6 @@
 {
     "liveServer.settings.multiRootWorkspaceName": "javascript-practice",
-    "editor.tokenColorCustomizations":{
-        "comments": "#d39e9e"
-    },
+    
     "json.schemas": [
     ]
 }
